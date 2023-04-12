@@ -91,3 +91,5 @@ Benchmarked on Apple Silicon (M-series) Python 3.11:
 - Memory footprint: ~120 bytes per node
 
 - Memory footprint: ~120 bytes per node
+
+- Memory footprint: ~120 bytes per node
