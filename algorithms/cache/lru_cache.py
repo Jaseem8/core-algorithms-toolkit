@@ -299,3 +299,5 @@ class LRUCache:
             node = Node(key, value, ttl)
             self._add_front(node)
             self.lookup[key] = node
+
+# Optimized node unlinking
