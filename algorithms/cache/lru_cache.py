@@ -301,3 +301,5 @@ class LRUCache:
             self.lookup[key] = node
 
 # Optimized node unlinking
+
+# Fine-grained read lock
