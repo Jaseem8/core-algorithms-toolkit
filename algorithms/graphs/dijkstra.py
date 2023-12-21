@@ -248,3 +248,5 @@ def dijkstra(graph: Graph, start: str) -> Tuple[Dict[str, float], Dict[str, Opti
                 previous[v] = u
                 heapq.heappush(pq, (distances[v], v))
     return distances, previous
+
+# Zero-weight cycle check
